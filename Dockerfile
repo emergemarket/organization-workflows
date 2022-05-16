@@ -9,4 +9,5 @@ ENV NODE_ENV="production"
 ENV PORT=8080
 EXPOSE 8080
 COPY lib lib
+LABEL org.opencontainers.image.source https://github.com/emergemarket/organization-workflows
 CMD [ "npm", "start" ]
